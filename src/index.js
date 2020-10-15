@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 // import App from './App';
-import Demo from './Demo'
-// import Test from './Test'
-// import Root from './Root'
+// import Demo from './Demo'
+import App from './reducer'
+
+// context测试用
+// import App from './example/context/context'
 
 
 
-ReactDOM.render(
-    <Demo />,
-  document.getElementById('root')
-)
+ReactDOM.render( <App/>, document.getElementById('root') )
